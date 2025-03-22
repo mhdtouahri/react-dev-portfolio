@@ -33,7 +33,7 @@ const Navbar = (props) => {
           </li>
           <li>
             <a href="#contact" className="navbar-btn">
-              Contact Me
+            Contactez-moi
             </a>
           </li>
         </ul>

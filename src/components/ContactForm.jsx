@@ -7,35 +7,43 @@ const ContactForm = () => {
   return (
     <div className="contact-section">
       <div className="contact-info">
-        <h1>Let&apos;s talk about everything!</h1>
+        <h1>Discutons de vos projets !</h1>
         <p>
-          Don&apos;t like forms? Send me an{" "}
-          <a href="mailto:randiltharusha72@gmail.com">email</a>. 👋
+          Vous n’aimez pas les formulaires ? Envoyez-moi un{" "}
+          <a href="mailto:mohand.touahri2@gmail.com">email</a>. 👋
           <br />
           <br />
-          <h3>Or find me on:</h3>
+          <br />
+          <br />
+          <br />
+          <br />
+          
+
+          {/* 
+          <h3>Ou retrouvez-moi ici :</h3>
           <div className="hero-socials">
             {socials.map((social, index) => (
               <a key={index} href={social.url}>
                 <img src={`/socials/${social.icon}`} alt="" />
               </a>
             ))}
-          </div>
+          </div> 
+          */}
         </p>
         <div>
           <p className="contact-links">
             <MdEmail />
-            randiltharusha72@gmail.com
+            mohand.touahri2@gmail.com
           </p>
           <br />
           <p className="contact-links">
             <FaPhoneAlt />
-            +94 78 134 7983
+            +33 605 53 48 36
           </p>
           <br />
           <p className="contact-links">
             <IoLocation />
-            Sri Lanka
+            France
           </p>
           <br />
         </div>
@@ -45,17 +53,27 @@ const ContactForm = () => {
           <input
             type="text"
             name="senderName"
-            placeholder="Your Name"
+            placeholder="Votre nom"
             required
           />
-          <input type="text" name="senderEmail" placeholder="Email" required />
-          <input type="text" name="subject" placeholder="Subject" required />
+          <input
+            type="text"
+            name="senderEmail"
+            placeholder="Votre email"
+            required
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Sujet"
+            required
+          />
           <textarea
-            placeholder="Your Message"
+            placeholder="Votre message"
             name="message"
             required
           ></textarea>
-          <input type="submit" value="Send" />
+          <input type="submit" value="Envoyer" />
         </form>
       </div>
     </div>

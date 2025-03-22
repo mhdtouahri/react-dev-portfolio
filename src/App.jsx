@@ -108,7 +108,7 @@ function App() {
         </a>
       </section>
       <section id="contact">
-        <Heading firstWord="Contact" secondWord="Me" />
+        <Heading firstWord="Contactez" secondWord="Moi" />
         <ContactForm />
       </section>
 
