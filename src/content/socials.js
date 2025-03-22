@@ -7,14 +7,14 @@ const socials = [
     icon: "linkedin.svg",
     url: "https://www.linkedin.com/in/randiltharusha/",
   },
-  {
+  /*{
     icon: "instagram.svg",
-    url: "https://www.instagram.com/itz_toxic03/",
+    url: "https://www.instagram.com/xxxxxxx/",
   },
   {
     icon: "facebook.svg",
-    url: "https://facebook.com/profile.php?id=100089910035602",
-  },
+    url: "https://facebook.com/profile.php?id=xxxxxx",
+  },*/
 ];
 
 export default socials;

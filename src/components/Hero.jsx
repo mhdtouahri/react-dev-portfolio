@@ -26,16 +26,20 @@ const Hero = (props) => {
         <img src={props.img} alt="" />
       </motion.div>
 
-      <Heading firstWord="Who" secondWord="AmI?" />
+      <Heading firstWord="Qui" secondWord="Suis-je?" />
       <div className="hero-typewriter">
-        <h3>I am</h3>
+        <h3>Je suis</h3>
         <Typewriter
           options={{
             strings: [
-              "An Aspiring Developer",
-              "An AI & ML Enthusiast",
-              "An IoT Enthusiast",
-              "A Student",
+              "Un Ingénieur prod/DevOps Passionné",
+              "Un Artisan de l’Automatisation",
+              "Un Maître de la Supervision",
+              "Un Facilitateur d’Équipes",
+              "Un Créateur d’Ambiance Positive",
+              "Un Acteur de l’Amélioration Continue",
+              "Un Scripteur en Quête de Simplicité",
+              "Un Bâtisseur de Systèmes Fiables",
             ],
             autoStart: true,
             loop: true,
