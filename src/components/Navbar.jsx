@@ -26,7 +26,7 @@ const Navbar = (props) => {
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#skills">Compétences</a>
           </li>
           <li>
             <a href="#blog">Blog</a>

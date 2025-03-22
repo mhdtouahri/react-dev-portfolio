@@ -75,7 +75,7 @@ function App() {
         </motion.div>
       </section>
       <section id="skills">
-        <Heading firstWord="Skills" secondWord="&Tools" />
+        <Heading firstWord="Compétences" secondWord="&Outils" />
         <motion.div
           className="skill-map"
           ref={ref}
